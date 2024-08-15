@@ -25,6 +25,46 @@ h2 {
     color: #FFFFFF;
     text-align: center;
     margin-top: 105px;
+    margin-bottom: 26px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0,25);
+    border: 1px solid rgb(255, 255, 255, 0,2);
+    border-radius: 14px;
+    height: 74px;
+    width: 342px;
+    padding-left: 20px;
+    font-size: 40px;
+    line-height: 47px;
+    color: black;
+    opacity: 0.7;
+}
+
+.inpu-min {
+    margin-right: 62px;
+}
+
+button {
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgb(174, 195, 70, 0.35);
+    border-radius: 10px;
+    width: 342px;
+    height: 72px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
 }
 
 p {
