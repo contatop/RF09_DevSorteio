@@ -1,3 +1,8 @@
-Ano = 31
+function generateNuber() {
 
-console.log(Ano)
+    const min = document.querySelector('.input-min').value
+    const max = document.querySelector('.input-max').value
+
+    console.log(min, max)
+    
+}
